@@ -12,6 +12,6 @@ We detected unusual activity on your account.
 Please verify your account information as soon as possible.
 
 Verify your account here:
-http://192.0.2.50/amazon/login
+https://amazon-account-verify.example/login
 
 This is a simulated phishing email created only for testing the AI security project.
