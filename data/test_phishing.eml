@@ -1,0 +1,14 @@
+From: Amazon Security <security@amazon-support.example>
+To: user@example.com
+Subject: Urgent: Your Amazon account requires verification
+Reply-To: verify-account@example.net
+Return-Path: bounce@example.net
+Content-Type: text/plain; charset="UTF-8"
+
+Hello,
+
+We detected unusual activity on your account.
+
+Please verify your account information as soon as possible.
+
+This is a simulated phishing email created only for testing the AI security project.

@@ -1,0 +1,15 @@
+From: John Smith <john@example.com>
+To: user@example.com
+Subject: Project meeting tomorrow
+Reply-To: john@example.com
+Return-Path: john@example.com
+Content-Type: text/plain; charset="UTF-8"
+
+Hi,
+
+Just a reminder that our project meeting is tomorrow at 10 AM.
+
+I'll bring the updated project notes and we can review them together.
+
+Thanks,
+John
