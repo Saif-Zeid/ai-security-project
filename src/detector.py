@@ -1,3 +1,4 @@
+import re
 def detect_phishing(email_data):
     score = 0
     reasons = []
@@ -26,6 +27,17 @@ def detect_phishing(email_data):
     if reply_to and reply_to not in sender:
         score += 2
         reasons.append("Reply-To address differs from sender address")
+
+    # Find URLs inside the email body
+    urls = re.findall(r'https?://[^\s]+', body)
+
+    for url in urls:
+        reasons.append(f"URL detected: {url}")
+
+        # Check if URL uses an IP address instead of a domain name
+        if re.search(r'https?://\d{1,3}(?:\.\d{1,3}){3}', url):
+            score += 3
+            reasons.append("Suspicious URL uses an IP address instead of a domain name")
 
     # Determine risk level
     if score >= 5:

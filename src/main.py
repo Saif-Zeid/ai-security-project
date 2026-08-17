@@ -1,7 +1,7 @@
 from email_parser import parse_email
 from detector import detect_phishing
 
-email_data = parse_email("data/test_legitimate.eml")
+email_data = parse_email("data/test_phishing.eml")
 
 result = detect_phishing(email_data)
 
