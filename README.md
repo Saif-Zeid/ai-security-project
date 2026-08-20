@@ -105,6 +105,10 @@ Reasons:
 - Safe creation of simulated test data
 - Linux development and Git/GitHub version control
 
+## Interview Summary
+
+> I built a Python email phishing analyzer that reads `.eml` files and evaluates the message body, sender metadata, Reply-To domain, and embedded URLs. It uses a weighted scoring model to classify messages as low, medium, or high risk and returns clear reasons for every finding. Building it helped me understand how phishing indicators work together and why explainable results are important for security analysts. The current version is rule-based, and my next goal is to expand its test coverage and add more advanced detection capabilities.
+
 ## Planned Improvements
 
 - Add automated unit tests for legitimate and phishing samples.
